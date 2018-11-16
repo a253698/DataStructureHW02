@@ -1,0 +1,28 @@
+package com.mavis;
+
+import java.util.Scanner;
+
+public class HighestCommonFactor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanner = new Scanner(System.in);
+		 
+        System.out.println("Please type in two number that you want to count :"); 
+        System.out.print("a = "); 
+        int a = scanner.nextInt();
+        System.out.print("b = "); 
+        int b = scanner.nextInt();
+        System.out.println("HCF: " + hcf(a, b)); 
+		
+	}
+	
+	private static int hcf(int a, int b) { 
+        if(b == 0) 
+            return a; 
+        else 
+            return hcf(b, a % b); 
+    } 
+
+}
