@@ -1,4 +1,4 @@
-package com.mavis;
+Fpackage com.mavis;
 
 import java.util.Scanner;
 
@@ -13,21 +13,23 @@ public class Factorial {
 		String s = scanner.nextLine();
 		int a = Integer.parseInt(s);
 		int b = 1;
-
+		
 		System.out.print(s + "!" + " = ");
-		for (int c = 1; c < a; c++) {
+		for(int c = 1; c < a; c++) {
 			System.out.print(c + " * ");
 		}
 		System.out.print(a);
 		System.out.println(" ");
-
-		for (int c = 1; c <= a; c++) {
-			b = b * c;
+		
+		
+		for(int c = 1; c <= a; c++) {
+			b = b * c ; 	
 //			System.out.println(b);
 		}
-
+		
 		System.out.println(s + "!" + " = " + b);
-
+		
+		
 	}
 
 }
