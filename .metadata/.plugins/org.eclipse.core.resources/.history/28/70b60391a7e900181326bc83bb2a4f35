@@ -1,0 +1,33 @@
+package com.mavis;
+
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+
+		System.out.println("Count n!");
+		System.out.println("Please type in the number you want to count : ");
+
+		Scanner scanner = new Scanner(System.in);
+		String s = scanner.nextLine();
+		int a = Integer.parseInt(s);
+		int b = 1;
+		
+		System.out.print(s + "!" + "=");
+		for(int c = 1; c <= a; c++) {
+			System.out.print(c + " * ");
+		}
+		
+		
+		for(int c = 1; c <= a; c++) {
+			b = b * c ; 	
+//			System.out.println(b);
+		}
+		
+		System.out.print(b);
+		
+		
+	}
+
+}
