@@ -1,4 +1,4 @@
-Fpackage com.mavis;
+package com.mavis;
 
 import java.util.Scanner;
 

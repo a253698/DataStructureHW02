@@ -6,11 +6,11 @@ public class Combination {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please type in two number that you want to count :");
-		System.out.print("a = ");
-		int a = scanner.nextInt();
-		System.out.print("b = ");
-		int b = scanner.nextInt();
+        System.out.println("Please type in two number that you want to count :"); 
+        System.out.print("a = "); 
+        int a = scanner.nextInt();
+        System.out.print("b = "); 
+        int b = scanner.nextInt();
         
         System.out.println(count(a,b)); 
 	}
