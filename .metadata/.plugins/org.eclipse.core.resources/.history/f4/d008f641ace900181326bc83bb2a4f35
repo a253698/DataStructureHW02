@@ -1,0 +1,38 @@
+package com.mavis;
+
+import java.util.Scanner;
+
+public class FibonacciNumbers {
+
+	public static void main(String[] args) {
+
+		int a = 0;
+		int b = 1;
+		int c ;
+		int e = 0 ;
+		
+		System.out.println("Count Fibonacci numbers n .");
+		System.out.println("Please type in the number you want to count : ");
+
+		Scanner scanner = new Scanner(System.in);
+		String s = scanner.nextLine();
+		int d = Integer.parseInt(s);
+		
+		System.out.print("f(" + d + ") = " + a + "+" + b + "+" );
+		for(c = 2 ; c < d ; c++) {
+			System.out.print(c + "+");
+		}
+		
+		System.out.print(d);
+		System.out.println(" ");
+		
+		e = a + b ;
+		for(c = 2 ; c <= d ; c++) {
+			e = e + c ;
+		}
+		
+		System.out.print("f(" + d + ") = " + e) ;
+		
+	}
+
+}
