@@ -1,0 +1,21 @@
+package com.mavis;
+
+public class NArrangement {
+
+	public static void main(String[] args) {
+		
+		int[] number = new int[10];
+		
+		for (int n = 0; n <= 10; n++) {
+			number[n] = n;
+		}
+		
+		System.out.println("before : ");
+		
+		for (int n = 0; n <= 10; n++) {
+			System.out.println(number[n]);
+		}
+		
+		
+	}
+}

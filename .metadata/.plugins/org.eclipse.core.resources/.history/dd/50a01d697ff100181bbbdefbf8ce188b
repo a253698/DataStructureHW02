@@ -1,0 +1,10 @@
+package com.mavis;
+
+public class NArrangement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.mavis;
+
+import java.util.ArrayList;
+
+public class NArrangement {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> list = new ArrayList<>();
+		for(int n = 0 ; n <= 10 ; n++) {
+			list.add(n);
+		}
+		
+		System.out.print(list);
+		
+		
+	}
+}
