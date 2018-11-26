@@ -1,0 +1,25 @@
+package com.mavis;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+
+public class SSubset {
+
+	public static void main(String[] args) {
+		
+		Set<Integer> set = new LinkedHashSet<>();
+		for (int i = 0; i < 3; i++) {
+		   set.add(i);
+		}
+
+		List<Integer> list = new ArrayList<>(set);
+		Set<Integer> subSet = new LinkedHashSet<>(list.subList(0,1));
+		
+		System.out.println(list);
+		System.out.println(subSet);
+
+	}
+
+}
