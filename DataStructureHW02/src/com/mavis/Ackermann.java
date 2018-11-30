@@ -8,22 +8,28 @@ public class Ackermann {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please type in two number that you want to count :");
+		System.out.println("a & b > 0");
 		System.out.print("a = ");
 		int a = scanner.nextInt();
 		System.out.print("b = ");
 		int b = scanner.nextInt();
-
-		System.out.print(Ackermann(a, b));
-		
+		int c = 0;
+		if(a > 0 || b > 0) {
+		c = c + Ackermann(a, b);
+		System.out.print(c);
+		}
 	}
 
 	private static int Ackermann(int a, int b) {
-		if (a == 0)
-			return b + 1;
-		else if (a > 0 && b == 0)
-			return Ackermann(a - 1, 1);
-		else
-			return Ackermann(a - 1, Ackermann(a, b - 1));
+		while (a != 0) {
+			if (a > 0 && b == 0) {
+				return Ackermann(a - 1, 1);
+			} else {
+				return Ackermann(a - 1, Ackermann(a, b - 1));
+			}
+		}
+
+		return b + 1;
 	}
 
 }

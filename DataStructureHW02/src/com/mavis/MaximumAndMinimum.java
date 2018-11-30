@@ -45,22 +45,22 @@ public class MaximumAndMinimum {
 		String scannera = scanneraa.nextLine();
 		a = Integer.parseInt(scannera);
 		
-		System.out.println("Please type in the number a (five in total) : ");
+		System.out.println("Please type in the number b (five in total) : ");
 		Scanner scannerbb = new Scanner(System.in);
 		String scannerb = scannerbb.nextLine();
 		b= Integer.parseInt(scannerb);
 		
-		System.out.println("Please type in the number a (five in total) : ");
+		System.out.println("Please type in the number c (five in total) : ");
 		Scanner scannercc = new Scanner(System.in);
 		String scannerc = scannercc.nextLine();
 		c = Integer.parseInt(scannerc);
 		
-		System.out.println("Please type in the number a (five in total) : ");
+		System.out.println("Please type in the number d (five in total) : ");
 		Scanner scannerdd = new Scanner(System.in);
 		String scannerd = scannerdd.nextLine();
 		d = Integer.parseInt(scannerd);
 		
-		System.out.println("Please type in the number a (five in total) : ");
+		System.out.println("Please type in the number e (five in total) : ");
 		Scanner scanneree = new Scanner(System.in);
 		String scannere = scanneree.nextLine();
 		e = Integer.parseInt(scannere);

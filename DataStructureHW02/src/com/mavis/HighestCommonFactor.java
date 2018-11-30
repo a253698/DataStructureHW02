@@ -23,7 +23,7 @@ public class HighestCommonFactor {
 		while (a % b != 0) {
 			ans = b;
 			b = a % b;
-			a = ans;
+//			a = ans;
 		}
 
 		ans = b;
